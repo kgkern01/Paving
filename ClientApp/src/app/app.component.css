@@ -1,0 +1,51 @@
+html,body{
+  height:100%;
+}
+.carousel,.item,.active{
+  height:20%;
+}
+.carousel-inner{
+  height:100%;
+}
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 280px;
+  background: 
+  /* color overlay */ 
+            linear-gradient(
+                           rgba(240, 212, 0, 0.45), 
+                           rgba(0, 0, 0, 0.45)
+    ),
+}
+
+
+/* Custom footer CSS
+-------------------------------------------------- */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.footertext {
+  color: #ffffff;
+}
